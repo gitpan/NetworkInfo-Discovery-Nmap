@@ -4,8 +4,8 @@ BEGIN { plan tests => 11 }
 use NetworkInfo::Discovery::Nmap;
 
 # check that the following functions are available
-ok( defined \&NetworkInfo::Discovery::Nmap::new         );  #01
-ok( defined \&NetworkInfo::Discovery::Nmap::do_it       );  #02
+ok( exists &NetworkInfo::Discovery::Nmap::new           );  #01
+ok( exists &NetworkInfo::Discovery::Nmap::do_it         );  #02
 
 # create an object
 my $scanner = undef;

@@ -10,6 +10,7 @@ LICENSE.GPL
 lib/NetworkInfo/Discovery/Nmap.pm
 eg/nmapdisc.pl
 t/00load.t
+t/00prereq.t
 t/01api.t
 t/10hosts.t
 t/11ports.t

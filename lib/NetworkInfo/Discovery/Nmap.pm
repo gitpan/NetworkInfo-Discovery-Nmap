@@ -5,7 +5,7 @@ use Nmap::Scanner;
 use NetworkInfo::Discovery::Detect;
 
 { no strict;
-  $VERSION = '0.01';
+  $VERSION = '0.02';
   @ISA = qw(NetworkInfo::Discovery::Detect);
 }
 
@@ -15,7 +15,7 @@ NetworkInfo::Discovery::Nmap - NetworkInfo::Discovery extension using Nmap
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 
@@ -261,8 +261,9 @@ SE<eacute>bastien Aperghis-Tramoni, E<lt>sebastien@aperghis.netE<gt>
 
 Please report any bugs or feature requests to
 C<bug-networkinfo-discovery-nmap@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org/>.  I will be notified, and then you'll automatically
-be notified of progress on your bug as I make changes.
+L<https://rt.cpan.org/NoAuth/ReportBug.html?Queue=NetworkInfo-Discovery-Nmap>. 
+I will be notified, and then you'll automatically be notified of progress 
+on your bug as I make changes.
 
 =head1 COPYRIGHT & LICENSE
 

@@ -10,6 +10,7 @@ my $builder = Module::Build->new(
         'Carp' => 0,
         'NetworkInfo::Discovery' => '0.12', 
         'Nmap::Scanner' => '0.7', 
+        'Sys::Hostname' => 0,
         'Test::More' => 0,
     },
     add_to_cleanup      => [ 'NetworkInfo-Discovery-Nmap-*' ],
